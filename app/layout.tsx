@@ -23,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased ${_trispace.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={`font-sans antialiased ${_trispace.variable}`}> 
         {children}
         <Analytics />
       </body>
