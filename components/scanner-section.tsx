@@ -9,7 +9,7 @@ export default function ScannerSection() {
   const [isScanning, setIsScanning] = useState(false)
   const [copied, setCopied] = useState(false)
 
-  const RADAR_ANALYZER_ADDRESS = "0x1234567890123456789012345678901234567890"
+  const RADAR_ANALYZER_ADDRESS = "xxxxxxxxxxxxxxxxxxxpump"
 
   const handleScan = () => {
     setIsScanning(true)
